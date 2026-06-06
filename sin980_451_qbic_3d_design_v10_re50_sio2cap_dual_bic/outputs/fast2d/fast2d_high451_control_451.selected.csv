@@ -1,0 +1,2 @@
+design_id,family,target_nm,length_nm,n_periods,min_feature_nm,min_gap_nm,kx_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,score
+primitive_P294_f0p42,primitive_1d_grating,451.0,294.0,1,123.47999999999999,170.52,0.0,1,673.650500830288,1.0031923185147496e-07,445.026698014029,3357534185.6068225,5.973301985970977

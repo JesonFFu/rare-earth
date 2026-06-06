@@ -1,0 +1,22 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='920' height='540' viewBox='0 0 920 540'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='460.0' y='32' text-anchor='middle' font-size='22' font-family='Arial'>Top candidate 980 nm Q</text>
+<line x1='95' y1='462' x2='885' y2='462' stroke='black'/>
+<line x1='95' y1='58' x2='95' y2='462' stroke='black'/>
+<text x='460.0' y='514' text-anchor='middle' font-size='16' font-family='Arial'>candidate rank</text>
+<text x='25' y='270.0' text-anchor='middle' transform='rotate(-90 25 270.0)' font-size='16' font-family='Arial'>Q980</text>
+<text x='95.00' y='486' text-anchor='middle' font-size='12' font-family='Arial'>1</text>
+<text x='253.00' y='486' text-anchor='middle' font-size='12' font-family='Arial'>6.8</text>
+<text x='411.00' y='486' text-anchor='middle' font-size='12' font-family='Arial'>12.6</text>
+<text x='569.00' y='486' text-anchor='middle' font-size='12' font-family='Arial'>18.4</text>
+<text x='727.00' y='486' text-anchor='middle' font-size='12' font-family='Arial'>24.2</text>
+<text x='885.00' y='486' text-anchor='middle' font-size='12' font-family='Arial'>30</text>
+<text x='86' y='466.00' text-anchor='end' font-size='12' font-family='Arial'>1e10</text>
+<text x='86' y='385.20' text-anchor='end' font-size='12' font-family='Arial'>1e11</text>
+<text x='86' y='304.40' text-anchor='end' font-size='12' font-family='Arial'>1e11</text>
+<text x='86' y='223.60' text-anchor='end' font-size='12' font-family='Arial'>1e11</text>
+<text x='86' y='142.80' text-anchor='end' font-size='12' font-family='Arial'>1e12</text>
+<text x='86' y='62.00' text-anchor='end' font-size='12' font-family='Arial'>1e12</text>
+<polyline points='95.00,448.23 122.24,462.00 149.48,415.91 176.72,269.06 203.97,256.74 231.21,250.88 258.45,220.57 285.69,196.22 312.93,235.29 340.17,247.27 367.41,257.46 394.66,223.05 421.90,312.67 449.14,334.69 476.38,196.04 503.62,319.27 530.86,232.52 558.10,250.98 585.34,58.00 612.59,294.11 639.83,288.65 667.07,231.39 694.31,238.00 721.55,178.59 748.79,270.71 776.03,304.74 803.28,241.26 830.52,322.60 857.76,220.59 885.00,258.47' fill='none' stroke='#0b5fff' stroke-width='2.4'/>
+<text x='107' y='78' font-size='14' font-family='Arial' fill='#0b5fff'>candidate</text>
+</svg>

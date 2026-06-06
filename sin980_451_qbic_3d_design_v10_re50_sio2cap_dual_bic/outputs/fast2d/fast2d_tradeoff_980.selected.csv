@@ -1,0 +1,2 @@
+design_id,family,target_nm,length_nm,n_periods,min_feature_nm,min_gap_nm,kx_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,score
+fine_primitive_P562_f0p72,primitive_1d_grating_fine,980.0,562.0,1,157.36,157.36,0.0,1,305.87472916309935,4.3176606522635366e-08,980.1151563591376,3542134894.306067,0.11515635913758615

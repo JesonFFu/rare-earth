@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+v8_sio2_1500_exact980_P542_R74,542.0,74.0,394.0,0.0,0.0,1,305.8998976709684,6.060270550660055e-08,980.0345154821276,2523813871.953714,0,0,0,0,0.034515482127631

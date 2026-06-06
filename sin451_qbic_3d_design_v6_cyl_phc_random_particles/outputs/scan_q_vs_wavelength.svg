@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="460.0" y="24" text-anchor="middle" font-family="Arial" font-size="18">v6 scan: Q vs wavelength</text>
+<line x1="85" y1="485.00" x2="890" y2="485.00" stroke="#ddd"/>
+<text x="75" y="489.00" text-anchor="end" font-family="Arial" font-size="12">1e2</text>
+<line x1="85" y1="404.81" x2="890" y2="404.81" stroke="#ddd"/>
+<text x="75" y="408.81" text-anchor="end" font-family="Arial" font-size="12">1e3</text>
+<line x1="85" y1="324.62" x2="890" y2="324.62" stroke="#ddd"/>
+<text x="75" y="328.62" text-anchor="end" font-family="Arial" font-size="12">1e4</text>
+<line x1="85" y1="244.43" x2="890" y2="244.43" stroke="#ddd"/>
+<text x="75" y="248.43" text-anchor="end" font-family="Arial" font-size="12">1e5</text>
+<line x1="85" y1="164.24" x2="890" y2="164.24" stroke="#ddd"/>
+<text x="75" y="168.24" text-anchor="end" font-family="Arial" font-size="12">1e6</text>
+<line x1="85" y1="84.05" x2="890" y2="84.05" stroke="#ddd"/>
+<text x="75" y="88.05" text-anchor="end" font-family="Arial" font-size="12">1e7</text>
+<line x1="85" y1="3.87" x2="890" y2="3.87" stroke="#ddd"/>
+<text x="75" y="7.87" text-anchor="end" font-family="Arial" font-size="12">1e8</text>
+<line x1="199.26" y1="40" x2="199.26" y2="485" stroke="#ddd"/>
+<text x="199.26" y="505" text-anchor="middle" font-family="Arial" font-size="12">440</text>
+<line x1="305.08" y1="40" x2="305.08" y2="485" stroke="#ddd"/>
+<text x="305.08" y="505" text-anchor="middle" font-family="Arial" font-size="12">445</text>
+<line x1="432.05" y1="40" x2="432.05" y2="485" stroke="#111" stroke-dasharray="5,4"/>
+<text x="432.05" y="505" text-anchor="middle" font-family="Arial" font-size="12">451</text>
+<line x1="516.70" y1="40" x2="516.70" y2="485" stroke="#ddd"/>
+<text x="516.70" y="505" text-anchor="middle" font-family="Arial" font-size="12">455</text>
+<line x1="622.52" y1="40" x2="622.52" y2="485" stroke="#ddd"/>
+<text x="622.52" y="505" text-anchor="middle" font-family="Arial" font-size="12">460</text>
+<line x1="85" y1="485" x2="890" y2="485" stroke="#111"/>
+<line x1="85" y1="40" x2="85" y2="485" stroke="#111"/>
+<circle cx="339.21" cy="456.16" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G135 lambda=446.613 Q=228.874</title></circle>
+<circle cx="336.27" cy="456.60" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G135 lambda=446.474 Q=226.015</title></circle>
+<circle cx="572.46" cy="425.83" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G135 lambda=457.635 Q=546.858</title></circle>
+<circle cx="574.59" cy="425.20" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G135 lambda=457.735 Q=556.885</title></circle>
+<circle cx="532.82" cy="423.18" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G130 lambda=455.761 Q=590.161</title></circle>
+<circle cx="533.61" cy="422.22" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G130 lambda=455.799 Q=606.516</title></circle>
+<circle cx="561.12" cy="260.63" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G130 lambda=457.099 Q=62799.6</title></circle>
+<circle cx="286.22" cy="459.91" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G130 lambda=444.109 Q=205.521</title></circle>
+<circle cx="494.94" cy="447.83" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G150 lambda=453.972 Q=290.796</title></circle>
+<circle cx="499.73" cy="447.96" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G150 lambda=454.198 Q=289.666</title></circle>
+<circle cx="593.88" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G150 lambda=458.647 Q=60.7461</title></circle>
+<circle cx="593.92" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P294_G150 lambda=458.649 Q=60.7452</title></circle>
+<circle cx="491.85" cy="413.55" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G155 lambda=453.826 Q=778.106</title></circle>
+<circle cx="500.70" cy="424.86" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G155 lambda=454.244 Q=562.283</title></circle>
+<circle cx="500.98" cy="424.92" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G155 lambda=454.257 Q=561.413</title></circle>
+<circle cx="501.01" cy="424.92" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G155 lambda=454.258 Q=561.351</title></circle>
+<circle cx="456.86" cy="422.17" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G150 lambda=452.172 Q=607.503</title></circle>
+<circle cx="500.70" cy="424.86" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G150 lambda=454.244 Q=562.274</title></circle>
+<circle cx="500.98" cy="424.92" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G150 lambda=454.257 Q=561.402</title></circle>
+<circle cx="501.01" cy="424.92" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G150 lambda=454.258 Q=561.342</title></circle>
+<circle cx="500.70" cy="424.86" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G180 lambda=454.244 Q=562.276</title></circle>
+<circle cx="500.98" cy="424.92" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G180 lambda=454.257 Q=561.408</title></circle>
+<circle cx="501.01" cy="424.92" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G180 lambda=454.258 Q=561.348</title></circle>
+<circle cx="501.05" cy="424.91" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P306_G180 lambda=454.26 Q=561.452</title></circle>
+<circle cx="478.15" cy="235.31" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P280_G130 lambda=453.178 Q=129937</title></circle>
+<circle cx="309.55" cy="219.34" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P280_G130 lambda=445.212 Q=205566</title></circle>
+<circle cx="245.98" cy="391.72" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P280_G130 lambda=442.208 Q=1456.35</title></circle>
+<circle cx="243.48" cy="392.03" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P280_G130 lambda=442.089 Q=1443.53</title></circle>
+<circle cx="394.30" cy="401.10" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P280_G150 lambda=449.216 Q=1112.42</title></circle>
+<circle cx="393.55" cy="401.31" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P280_G150 lambda=449.181 Q=1105.68</title></circle>
+<circle cx="576.00" cy="220.90" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P280_G150 lambda=457.802 Q=196545</title></circle>
+<circle cx="640.77" cy="172.92" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P280_G150 lambda=460.863 Q=779530</title></circle>
+<circle cx="432.98" cy="464.13" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G130 lambda=451.044 Q=182.079</title></circle>
+<circle cx="578.01" cy="468.30" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G130 lambda=457.897 Q=161.529</title></circle>
+<circle cx="583.76" cy="468.54" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G130 lambda=458.169 Q=160.401</title></circle>
+<circle cx="595.79" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G130 lambda=458.737 Q=60.9502</title></circle>
+<circle cx="548.00" cy="433.44" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G150 lambda=456.479 Q=439.494</title></circle>
+<circle cx="595.79" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G150 lambda=458.737 Q=60.9499</title></circle>
+<circle cx="595.87" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G150 lambda=458.741 Q=60.9382</title></circle>
+<circle cx="595.98" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G150 lambda=458.746 Q=60.9163</title></circle>
+<circle cx="595.79" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G180 lambda=458.737 Q=60.9507</title></circle>
+<circle cx="595.87" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G180 lambda=458.741 Q=60.9383</title></circle>
+<circle cx="595.98" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G180 lambda=458.746 Q=60.9171</title></circle>
+<circle cx="596.01" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P310_G180 lambda=458.748 Q=60.9122</title></circle>
+<circle cx="528.68" cy="483.06" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G130 lambda=455.566 Q=105.724</title></circle>
+<circle cx="530.85" cy="482.93" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G130 lambda=455.669 Q=106.118</title></circle>
+<circle cx="577.50" cy="466.50" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G130 lambda=457.873 Q=170.092</title></circle>
+<circle cx="656.66" cy="462.33" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G130 lambda=461.613 Q=191.711</title></circle>
+<circle cx="592.48" cy="477.68" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G150 lambda=458.581 Q=123.379</title></circle>
+<circle cx="593.30" cy="477.71" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G150 lambda=458.619 Q=123.3</title></circle>
+<circle cx="266.29" cy="382.23" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G150 lambda=443.167 Q=1912.52</title></circle>
+<circle cx="631.72" cy="463.55" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G150 lambda=460.435 Q=185.152</title></circle>
+<circle cx="396.35" cy="354.72" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G180 lambda=449.313 Q=4213.61</title></circle>
+<circle cx="550.67" cy="381.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G180 lambda=456.605 Q=1981.16</title></circle>
+<circle cx="267.94" cy="442.77" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G180 lambda=443.245 Q=336.254</title></circle>
+<circle cx="266.19" cy="442.16" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P330_G180 lambda=443.163 Q=342.199</title></circle>
+<circle cx="413.41" cy="126.99" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P260_G130 lambda=450.119 Q=2.91478e+06</title></circle>
+<circle cx="260.12" cy="153.55" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P260_G130 lambda=442.876 Q=1.3596e+06</title></circle>
+<circle cx="650.63" cy="427.35" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P260_G130 lambda=461.329 Q=523.493</title></circle>
+<circle cx="655.95" cy="428.01" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P260_G130 lambda=461.58 Q=513.742</title></circle>
+<circle cx="425.72" cy="127.26" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P260_G150 lambda=450.701 Q=2.89232e+06</title></circle>
+<circle cx="244.23" cy="141.10" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P260_G150 lambda=442.125 Q=1.9435e+06</title></circle>
+<circle cx="672.64" cy="93.40" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P260_G150 lambda=462.368 Q=7.64566e+06</title></circle>
+<circle cx="127.53" cy="150.38" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P260_G150 lambda=436.61 Q=1.48895e+06</title></circle>
+<circle cx="385.58" cy="453.07" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P360_G150 lambda=448.804 Q=250.107</title></circle>
+<circle cx="374.88" cy="467.52" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P360_G150 lambda=448.299 Q=165.18</title></circle>
+<circle cx="371.56" cy="467.66" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P360_G150 lambda=448.142 Q=164.517</title></circle>
+<circle cx="555.19" cy="457.98" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P360_G150 lambda=456.819 Q=217.267</title></circle>
+<circle cx="436.74" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P360_G180 lambda=451.222 Q=44.9451</title></circle>
+<circle cx="439.08" cy="485.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P360_G180 lambda=451.332 Q=45.1007</title></circle>
+<circle cx="474.94" cy="475.23" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P360_G180 lambda=453.026 Q=132.392</title></circle>
+<circle cx="564.92" cy="371.78" r="2.8" fill="#1f77b4" opacity="0.75"><title>cyl_P360_G180 lambda=457.278 Q=2581.7</title></circle>
+<circle cx="373.57" cy="415.11" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P250_G130 lambda=448.237 Q=743.95</title></circle>
+<circle cx="371.47" cy="415.47" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P250_G130 lambda=448.137 Q=736.312</title></circle>
+<circle cx="136.71" cy="80.75" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P250_G130 lambda=437.044 Q=1.09941e+07</title></circle>
+<circle cx="797.18" cy="130.09" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P250_G130 lambda=468.253 Q=2.66617e+06</title></circle>
+<circle cx="518.27" cy="408.43" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P250_G140 lambda=455.074 Q=901.214</title></circle>
+<circle cx="521.76" cy="408.93" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P250_G140 lambda=455.239 Q=888.528</title></circle>
+<circle cx="268.49" cy="54.12" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P250_G140 lambda=443.271 Q=2.36209e+07</title></circle>
+<circle cx="106.16" cy="105.78" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P250_G140 lambda=435.601 Q=5.35954e+06</title></circle>
+<circle cx="404.18" cy="96.56" r="4.0" fill="#1f77b4" opacity="0.75"><title>fine_P250_G150 lambda=449.683 Q=6.98417e+06</title></circle>
+<circle cx="658.80" cy="395.43" r="4.0" fill="#1f77b4" opacity="0.75"><title>fine_P250_G150 lambda=461.714 Q=1309.15</title></circle>
+<circle cx="662.54" cy="395.03" r="4.0" fill="#1f77b4" opacity="0.75"><title>fine_P250_G150 lambda=461.891 Q=1324.41</title></circle>
+<circle cx="179.84" cy="109.30" r="4.0" fill="#1f77b4" opacity="0.75"><title>fine_P250_G150 lambda=439.082 Q=4.84384e+06</title></circle>
+<circle cx="338.74" cy="111.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G135 lambda=446.591 Q=4.61331e+06</title></circle>
+<circle cx="585.48" cy="418.00" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G135 lambda=458.25 Q=684.836</title></circle>
+<circle cx="590.25" cy="418.97" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G135 lambda=458.475 Q=665.887</title></circle>
+<circle cx="186.21" cy="151.35" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G135 lambda=439.383 Q=1.4481e+06</title></circle>
+<circle cx="470.00" cy="110.31" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G145 lambda=452.793 Q=4.70559e+06</title></circle>
+<circle cx="267.26" cy="122.96" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G145 lambda=443.213 Q=3.27181e+06</title></circle>
+<circle cx="730.21" cy="408.26" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G145 lambda=465.089 Q=905.582</title></circle>
+<circle cx="734.27" cy="408.51" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G145 lambda=465.281 Q=899.197</title></circle>
+<circle cx="337.77" cy="113.31" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G155 lambda=446.545 Q=4.31675e+06</title></circle>
+<circle cx="604.94" cy="74.25" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G155 lambda=459.169 Q=1.32526e+07</title></circle>
+<circle cx="199.33" cy="137.80" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G155 lambda=440.003 Q=2.13711e+06</title></circle>
+<circle cx="868.84" cy="394.65" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P255_G155 lambda=471.639 Q=1338.72</title></circle>
+<circle cx="423.50" cy="146.85" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G135 lambda=450.596 Q=1.64778e+06</title></circle>
+<circle cx="611.35" cy="95.51" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G135 lambda=459.472 Q=7.19688e+06</title></circle>
+<circle cx="195.24" cy="422.53" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G135 lambda=439.81 Q=601.26</title></circle>
+<circle cx="195.16" cy="422.51" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G135 lambda=439.806 Q=601.587</title></circle>
+<circle cx="508.29" cy="142.22" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G145 lambda=454.603 Q=1.88234e+06</title></circle>
+<circle cx="277.16" cy="180.56" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G145 lambda=443.681 Q=625975</title></circle>
+<circle cx="224.62" cy="177.91" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G145 lambda=441.198 Q=675458</title></circle>
+<circle cx="195.24" cy="422.53" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G145 lambda=439.81 Q=601.278</title></circle>
+<circle cx="412.53" cy="166.16" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G155 lambda=450.077 Q=946442</title></circle>
+<circle cx="582.57" cy="141.84" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G155 lambda=458.113 Q=1.90303e+06</title></circle>
+<circle cx="261.44" cy="165.72" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G155 lambda=442.938 Q=958625</title></circle>
+<circle cx="195.24" cy="422.53" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P265_G155 lambda=439.81 Q=601.278</title></circle>
+<circle cx="370.97" cy="423.89" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G140 lambda=448.114 Q=578.211</title></circle>
+<circle cx="370.89" cy="423.87" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G140 lambda=448.11 Q=578.469</title></circle>
+<circle cx="370.81" cy="423.87" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G140 lambda=448.106 Q=578.515</title></circle>
+<circle cx="370.74" cy="423.85" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G140 lambda=448.103 Q=578.842</title></circle>
+<circle cx="446.17" cy="169.24" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G150 lambda=451.667 Q=866301</title></circle>
+<circle cx="370.97" cy="423.89" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G150 lambda=448.114 Q=578.22</title></circle>
+<circle cx="370.89" cy="423.87" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G150 lambda=448.11 Q=578.462</title></circle>
+<circle cx="370.81" cy="423.87" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G150 lambda=448.106 Q=578.518</title></circle>
+<circle cx="390.92" cy="185.24" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G160 lambda=449.056 Q=547211</title></circle>
+<circle cx="370.97" cy="423.89" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G160 lambda=448.114 Q=578.221</title></circle>
+<circle cx="370.89" cy="423.87" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G160 lambda=448.11 Q=578.463</title></circle>
+<circle cx="370.81" cy="423.87" r="2.8" fill="#1f77b4" opacity="0.75"><title>fine_P270_G160 lambda=448.106 Q=578.505</title></circle>
+<circle cx="407.18" cy="337.76" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p20 lambda=449.825 Q=6856.48</title></circle>
+<circle cx="593.88" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p20 lambda=458.647 Q=60.7474</title></circle>
+<circle cx="593.92" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p20 lambda=458.649 Q=60.7457</title></circle>
+<circle cx="594.03" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p20 lambda=458.654 Q=60.7144</title></circle>
+<circle cx="315.63" cy="356.81" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p22 lambda=445.499 Q=3967.92</title></circle>
+<circle cx="593.89" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p22 lambda=458.647 Q=60.753</title></circle>
+<circle cx="593.92" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p22 lambda=458.649 Q=60.7431</title></circle>
+<circle cx="594.03" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p22 lambda=458.654 Q=60.7181</title></circle>
+<circle cx="522.16" cy="446.31" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p24 lambda=455.258 Q=303.69</title></circle>
+<circle cx="525.18" cy="446.23" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p24 lambda=455.4 Q=304.467</title></circle>
+<circle cx="593.88" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p24 lambda=458.647 Q=60.7467</title></circle>
+<circle cx="593.92" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P294_rho0p24 lambda=458.649 Q=60.7446</title></circle>
+<circle cx="500.70" cy="424.86" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p20 lambda=454.244 Q=562.276</title></circle>
+<circle cx="500.98" cy="424.92" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p20 lambda=454.257 Q=561.405</title></circle>
+<circle cx="501.01" cy="424.92" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p20 lambda=454.258 Q=561.346</title></circle>
+<circle cx="501.05" cy="424.91" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p20 lambda=454.26 Q=561.466</title></circle>
+<circle cx="500.70" cy="424.86" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p22 lambda=454.244 Q=562.28</title></circle>
+<circle cx="500.98" cy="424.92" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p22 lambda=454.257 Q=561.413</title></circle>
+<circle cx="501.01" cy="424.92" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p22 lambda=454.258 Q=561.356</title></circle>
+<circle cx="501.05" cy="424.91" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p22 lambda=454.26 Q=561.459</title></circle>
+<circle cx="500.70" cy="424.86" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p24 lambda=454.244 Q=562.28</title></circle>
+<circle cx="500.98" cy="424.92" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p24 lambda=454.257 Q=561.415</title></circle>
+<circle cx="501.01" cy="424.92" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p24 lambda=454.258 Q=561.354</title></circle>
+<circle cx="501.05" cy="424.91" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P306_rho0p24 lambda=454.26 Q=561.459</title></circle>
+<circle cx="446.06" cy="443.73" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p20 lambda=451.662 Q=327.125</title></circle>
+<circle cx="463.79" cy="444.82" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p20 lambda=452.5 Q=317.02</title></circle>
+<circle cx="396.75" cy="469.73" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p20 lambda=449.332 Q=155.026</title></circle>
+<circle cx="390.59" cy="390.17" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p20 lambda=449.041 Q=1522.73</title></circle>
+<circle cx="426.62" cy="450.32" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p22 lambda=450.743 Q=270.677</title></circle>
+<circle cx="450.39" cy="447.88" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p22 lambda=451.866 Q=290.303</title></circle>
+<circle cx="383.93" cy="471.86" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p22 lambda=448.726 Q=145.829</title></circle>
+<circle cx="383.12" cy="471.63" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p22 lambda=448.688 Q=146.797</title></circle>
+<circle cx="437.39" cy="450.62" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p24 lambda=451.252 Q=268.401</title></circle>
+<circle cx="407.53" cy="454.44" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p24 lambda=449.841 Q=240.481</title></circle>
+<circle cx="369.15" cy="473.38" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p24 lambda=448.028 Q=139.625</title></circle>
+<circle cx="368.93" cy="473.48" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P320_rho0p24 lambda=448.017 Q=139.204</title></circle>
+<circle cx="341.42" cy="464.23" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p20 lambda=446.717 Q=181.555</title></circle>
+<circle cx="287.78" cy="464.24" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p20 lambda=444.182 Q=181.503</title></circle>
+<circle cx="255.78" cy="423.02" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p20 lambda=442.67 Q=592.76</title></circle>
+<circle cx="613.05" cy="377.58" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p20 lambda=459.553 Q=2185.67</title></circle>
+<circle cx="410.11" cy="379.14" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p22 lambda=449.963 Q=2090.16</title></circle>
+<circle cx="301.52" cy="464.37" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p22 lambda=444.832 Q=180.815</title></circle>
+<circle cx="572.20" cy="427.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p22 lambda=457.622 Q=528.831</title></circle>
+<circle cx="575.91" cy="427.70" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p22 lambda=457.797 Q=518.229</title></circle>
+<circle cx="422.60" cy="451.53" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p24 lambda=450.553 Q=261.451</title></circle>
+<circle cx="422.10" cy="452.01" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p24 lambda=450.53 Q=257.889</title></circle>
+<circle cx="560.31" cy="364.70" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p24 lambda=457.06 Q=3163.33</title></circle>
+<circle cx="255.78" cy="423.03" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P340_rho0p24 lambda=442.67 Q=592.707</title></circle>
+<circle cx="553.08" cy="470.44" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p20 lambda=456.719 Q=151.914</title></circle>
+<circle cx="309.72" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p20 lambda=445.219 Q=81.6167</title></circle>
+<circle cx="309.15" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p20 lambda=445.192 Q=81.826</title></circle>
+<circle cx="604.65" cy="470.04" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p20 lambda=459.156 Q=153.671</title></circle>
+<circle cx="482.96" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p22 lambda=453.406 Q=78.5031</title></circle>
+<circle cx="483.55" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p22 lambda=453.433 Q=78.0016</title></circle>
+<circle cx="501.55" cy="471.42" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p22 lambda=454.284 Q=147.706</title></circle>
+<circle cx="567.31" cy="470.81" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p22 lambda=457.392 Q=150.317</title></circle>
+<circle cx="441.78" cy="472.77" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p24 lambda=451.46 Q=142.084</title></circle>
+<circle cx="390.54" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p24 lambda=449.038 Q=50.7415</title></circle>
+<circle cx="388.99" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p24 lambda=448.965 Q=50.7033</title></circle>
+<circle cx="522.45" cy="471.69" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_rho0p24 lambda=455.271 Q=146.531</title></circle>
+<circle cx="397.22" cy="284.66" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p20 lambda=449.354 Q=31505.8</title></circle>
+<circle cx="555.27" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p20 lambda=456.822 Q=66.1926</title></circle>
+<circle cx="556.07" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p20 lambda=456.86 Q=66.1346</title></circle>
+<circle cx="597.94" cy="437.95" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p20 lambda=458.839 Q=386.182</title></circle>
+<circle cx="476.14" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p22 lambda=453.083 Q=83.0379</title></circle>
+<circle cx="477.70" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p22 lambda=453.157 Q=82.2438</title></circle>
+<circle cx="371.41" cy="446.67" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p22 lambda=448.134 Q=300.565</title></circle>
+<circle cx="287.75" cy="328.72" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p22 lambda=444.181 Q=8890.13</title></circle>
+<circle cx="366.13" cy="473.13" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p24 lambda=447.885 Q=140.596</title></circle>
+<circle cx="365.27" cy="472.84" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p24 lambda=447.844 Q=141.776</title></circle>
+<circle cx="671.13" cy="477.93" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p24 lambda=462.297 Q=122.521</title></circle>
+<circle cx="690.76" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P370_rho0p24 lambda=463.225 Q=53.2363</title></circle>
+<circle cx="486.46" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_exact lambda=453.571 Q=79.5454</title></circle>
+<circle cx="487.54" cy="485.00" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_exact lambda=453.622 Q=80.3056</title></circle>
+<circle cx="501.12" cy="471.61" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_exact lambda=454.264 Q=146.869</title></circle>
+<circle cx="566.18" cy="470.84" r="2.8" fill="#d62728" opacity="0.75"><title>bicref_P356_exact lambda=457.338 Q=150.186</title></circle>
+<text x="487.5" y="536" text-anchor="middle" font-family="Arial" font-size="14">Wavelength (nm)</text>
+<text x="22" y="262.5" transform="rotate(-90 22 262.5)" text-anchor="middle" font-family="Arial" font-size="14">Q (log)</text>
+<text x="680" y="58" font-family="Arial" font-size="12" fill="#1f77b4">blue: v6/fine candidates</text>
+<text x="680" y="76" font-family="Arial" font-size="12" fill="#d62728">red: bic0413 scale rows</text>
+</svg>

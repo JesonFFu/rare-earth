@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+p980_only_rho0p45,980.0,441.0,98.0,0.0,0.0,1,306.3847549475676,1.901686333162716,978.4835999797191,80.55607005336566,0,0,0,0,25.89200693666118

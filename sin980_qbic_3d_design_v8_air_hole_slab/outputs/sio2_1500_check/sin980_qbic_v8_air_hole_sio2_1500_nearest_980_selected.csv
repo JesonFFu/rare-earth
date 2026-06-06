@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+v8_sio2_1500_nearest_980,540.0,75.6,388.8,0.0,0.0,1,305.8826226738258,7.201564187370365e-08,980.0898638157687,2123723504.473256,0,0,0,0,0.08986381576869462

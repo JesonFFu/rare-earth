@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+hole_focus_P540_R74p0,540.0,74.0,392.0,0.0,0.0,1,305.73888492273613,0.0007617881490415178,980.5506358007459,200671.85693779623,0,0,0,0,11.340689922826611

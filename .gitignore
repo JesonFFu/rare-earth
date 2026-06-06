@@ -1,0 +1,16 @@
+# Large COMSOL model files. Track specific models with Git LFS only when needed.
+*.mph
+*.mph.lock
+
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+
+# Run logs and temporary files
+*.log
+*.err.log
+tmp/
+
+# Large local documents/reference binaries
+*.pptx
+*.pdf

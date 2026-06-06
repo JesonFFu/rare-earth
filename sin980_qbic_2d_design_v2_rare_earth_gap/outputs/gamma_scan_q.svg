@@ -1,0 +1,48 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='540' viewBox='0 0 900 540'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450.0' y='30' text-anchor='middle' font-size='22' font-family='Arial'>Gamma-point Q tuning</text>
+<line x1='90' y1='460' x2='870' y2='460' stroke='black'/>
+<line x1='90' y1='55' x2='90' y2='460' stroke='black'/>
+<text x='450.0' y='515' text-anchor='middle' font-size='16' font-family='Arial'>period (nm)</text>
+<text x='24' y='270.0' text-anchor='middle' transform='rotate(-90 24 270.0)' font-size='16' font-family='Arial'>Q</text>
+<line x1='90.00' y1='460' x2='90.00' y2='465' stroke='black'/>
+<text x='90.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>5.4e+02</text>
+<line x1='246.00' y1='460' x2='246.00' y2='465' stroke='black'/>
+<text x='246.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>5.5e+02</text>
+<line x1='402.00' y1='460' x2='402.00' y2='465' stroke='black'/>
+<text x='402.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>5.5e+02</text>
+<line x1='558.00' y1='460' x2='558.00' y2='465' stroke='black'/>
+<text x='558.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>5.6e+02</text>
+<line x1='714.00' y1='460' x2='714.00' y2='465' stroke='black'/>
+<text x='714.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>5.6e+02</text>
+<line x1='870.00' y1='460' x2='870.00' y2='465' stroke='black'/>
+<text x='870.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>5.7e+02</text>
+<line x1='85' y1='460.00' x2='90' y2='460.00' stroke='black'/>
+<text x='80' y='464.00' text-anchor='end' font-size='12' font-family='Arial'>1e1</text>
+<line x1='85' y1='379.00' x2='90' y2='379.00' stroke='black'/>
+<text x='80' y='383.00' text-anchor='end' font-size='12' font-family='Arial'>1e4</text>
+<line x1='85' y1='298.00' x2='90' y2='298.00' stroke='black'/>
+<text x='80' y='302.00' text-anchor='end' font-size='12' font-family='Arial'>1e6</text>
+<line x1='85' y1='217.00' x2='90' y2='217.00' stroke='black'/>
+<text x='80' y='221.00' text-anchor='end' font-size='12' font-family='Arial'>1e8</text>
+<line x1='85' y1='136.00' x2='90' y2='136.00' stroke='black'/>
+<text x='80' y='140.00' text-anchor='end' font-size='12' font-family='Arial'>1e10</text>
+<line x1='85' y1='55.00' x2='90' y2='55.00' stroke='black'/>
+<text x='80' y='59.00' text-anchor='end' font-size='12' font-family='Arial'>1e13</text>
+<polyline points='90.00,408.15 246.00,408.50 402.00,408.84 558.00,102.82 714.00,111.30 719.20,99.36 720.50,101.40 721.80,105.52 723.10,107.18 724.40,105.24 870.00,102.87' fill='none' stroke='#0b5fff' stroke-width='2.5'/>
+<text x='105' y='75' font-size='14' font-family='Arial' fill='#0b5fff'>fill=0.68</text>
+<polyline points='90.00,103.05 246.00,103.33 402.00,73.95 558.00,110.22 714.00,102.04 870.00,83.78' fill='none' stroke='#d22f27' stroke-width='2.5'/>
+<text x='105' y='97' font-size='14' font-family='Arial' fill='#d22f27'>fill=0.7</text>
+<polyline points='90.00,100.87 246.00,74.79 402.00,107.60 558.00,108.77 714.00,84.64 870.00,116.55' fill='none' stroke='#14853b' stroke-width='2.5'/>
+<text x='105' y='119' font-size='14' font-family='Arial' fill='#14853b'>fill=0.72</text>
+<polyline points='363.00,112.00 370.80,87.99 376.00,107.50 381.20,107.68 389.00,112.85' fill='none' stroke='#7c3aed' stroke-width='2.5'/>
+<text x='105' y='141' font-size='14' font-family='Arial' fill='#7c3aed'>fill=0.735</text>
+<polyline points='90.00,86.41 246.00,92.06 363.00,79.70 370.80,108.65 376.00,106.70 381.20,112.61 389.00,86.72 402.00,107.28 558.00,113.87 714.00,100.26 870.00,117.31' fill='none' stroke='#cc7a00' stroke-width='2.5'/>
+<text x='105' y='163' font-size='14' font-family='Arial' fill='#cc7a00'>fill=0.74</text>
+<polyline points='363.00,101.44 370.80,97.78 376.00,106.49 381.20,110.03 389.00,107.68' fill='none' stroke='#0b5fff' stroke-width='2.5'/>
+<text x='105' y='185' font-size='14' font-family='Arial' fill='#0b5fff'>fill=0.745</text>
+<polyline points='90.00,114.26 246.00,104.03 402.00,55.00 558.00,409.18 714.00,409.57 870.00,460.00' fill='none' stroke='#d22f27' stroke-width='2.5'/>
+<text x='105' y='207' font-size='14' font-family='Arial' fill='#d22f27'>fill=0.76</text>
+<polyline points='90.00,93.12 246.00,99.84 402.00,109.13 558.00,409.18 714.00,409.57 870.00,460.00' fill='none' stroke='#14853b' stroke-width='2.5'/>
+<text x='105' y='229' font-size='14' font-family='Arial' fill='#14853b'>fill=0.78</text>
+</svg>

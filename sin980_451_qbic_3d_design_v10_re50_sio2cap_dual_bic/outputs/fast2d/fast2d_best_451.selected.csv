@@ -1,0 +1,2 @@
+design_id,family,target_nm,length_nm,n_periods,min_feature_nm,min_gap_nm,kx_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,score
+primitive_P560_f0p75,primitive_1d_grating,451.0,560.0,1,140.0,140.0,0.0,3,660.5220655462155,0.4284316908450078,453.87198041913723,770.8604191294174,11.324077431912638

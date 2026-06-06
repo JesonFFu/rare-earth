@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+hole_nearest980_P540_R75p6,540.0,75.6,388.8,0.0,0.0,1,305.8865378977405,0.0007671876370652844,980.0773190620838,199355.75282980665,0,0,0,0,10.878803971441714

@@ -1,0 +1,2 @@
+design_id,family,notes,px_nm,py_nm,feature_min_nm,fabricable,preferred_gap_ok,lambda980_nm,q980,mode980_index,freq980_thz_real,freq980_thz_imag,lambda451_nm,q451,mode451_index,freq451_thz_real,freq451_thz_imag,dual_score
+mono_hole_P540_R74,single_air_hole_slab_reference,single circular air-hole PhC slab reference,540.0,540.0,148.0,True,True,978.99545216223,22337587236.91985,1,306.2245665573543,6.854468284990566e-09,451.638256989952,1771.1038177883354,2,663.7888915745012,0.18739412249797055,6.395798851176842

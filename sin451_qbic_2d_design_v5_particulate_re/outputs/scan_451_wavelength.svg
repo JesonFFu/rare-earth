@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='530' viewBox='0 0 900 530'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450.0' y='30' text-anchor='middle' font-size='22' font-family='Arial'>451 nm best candidates wavelength</text>
+<line x1='92' y1='455' x2='865' y2='455' stroke='black'/>
+<line x1='92' y1='55' x2='92' y2='455' stroke='black'/>
+<text x='450.0' y='505' text-anchor='middle' font-size='16' font-family='Arial'>candidate rank</text>
+<text x='24' y='265.0' text-anchor='middle' transform='rotate(-90 24 265.0)' font-size='16' font-family='Arial'>wavelength (nm)</text>
+<polyline points='92.00,291.41 111.82,294.68 131.64,263.35 151.46,311.39 171.28,260.92 191.10,314.03 210.92,255.14 230.74,324.50 250.56,332.49 270.38,241.79 290.21,220.37 310.03,217.27 329.85,364.14 349.67,194.40 369.49,190.23 389.31,172.55 409.13,172.55 428.95,402.09 448.77,401.76 468.59,405.14 488.41,162.54 508.23,154.01 528.05,148.03 547.87,146.84 567.69,451.49 587.51,122.81 607.33,455.00 627.15,117.30 646.97,267.07 666.79,94.50 686.62,333.11 706.44,55.00 726.26,286.09 746.08,288.31 765.90,288.88 785.72,289.25 805.54,289.64 825.36,289.73 845.18,289.82 865.00,289.95' fill='none' stroke='#0b5fff' stroke-width='2.4'/>
+</svg>

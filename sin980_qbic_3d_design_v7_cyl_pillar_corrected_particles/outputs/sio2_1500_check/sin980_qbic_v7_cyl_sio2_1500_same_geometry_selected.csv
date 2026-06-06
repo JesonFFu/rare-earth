@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+v7_sio2_1500_same_P596_R255p5,596.0,255.5,85.0,0.0,0.0,1,305.92035710242527,2.8925794865352104e-06,979.9689724460751,52880198.88934198,0,0,0,0,1.1378552342489605

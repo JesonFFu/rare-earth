@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+v7_sio2_1500_gap120_P616_G130,616.0,243.0,130.0,0.0,0.0,1,305.60382516281345,2.127874399283094e-05,980.9839842164365,7180964.846087133,0,0,0,0,5.559253013740474

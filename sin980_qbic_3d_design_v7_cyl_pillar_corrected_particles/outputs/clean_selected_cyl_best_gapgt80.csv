@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+selected_cyl_P596_G85,596.0,255.5,85.0,0.0,0.0,1,305.93149510976724,0.008112295529429506,979.9332948457478,18856.037357115474,0,0,0,0,14.96490343452971

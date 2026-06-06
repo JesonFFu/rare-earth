@@ -1,0 +1,214 @@
+\documentclass[11pt,a4paper]{ctexart}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{fvextra}
+\usepackage{enumitem}
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+\setlist{nosep,leftmargin=1.6em}
+\DefineVerbatimEnvironment{ExactText}{Verbatim}{
+  breaklines=true,
+  breakanywhere=true,
+  fontsize=\small,
+  frame=single,
+  framesep=3mm,
+  rulecolor=\color{gray!55}
+}
+\title{COMSOL 一维准 BIC 光栅仿真设计对话总结}
+\author{Codex 根据本线程截至 2026-06-03 的对话整理}
+\date{2026 年 6 月 3 日}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{整理范围}
+本文档只总结到当前对话为止的工作与结论。用户特别要求保留“模型设计完成后的回复”原文，因此本文后半部分完整复制了相关回复文本。之后是否继续用这种形式整理，由用户另行通知。
+
+\section{初始目标与环境}
+\begin{itemize}
+  \item 用户希望在当前项目文件夹中基于 PPTX、参考 COMSOL 模型和 SiN 折射率参数，设计用于 980 nm 谐振增强的 SiN 一维准 BIC 光栅。
+  \item COMSOL 通过用户提供的 Conda 环境运行：D:\textbackslash Anaconda\textbackslash envs\textbackslash comsol\_env。
+  \item 原始输入包括 PPTX、参考 mph 文件以及 SiN 折射率数据表；后续所有新模型均要求新建目录，不覆盖原始文件。
+  \item 参考 PPTX 的核心物理背景是 Tm$^{3+}$ 基上转换纳米晶，通过 980 nm 泵浦增强 451 nm 发光；原 PPTX 中的一维光栅方案曾实现约 47 倍 451 nm 发光增强。
+\end{itemize}
+
+\section{关键事实与设计演进}
+\subsection{第一版：无稀土基础 SiN 2D 高 Q 模型}
+\begin{itemize}
+  \item 结构：等效半无限 Si / 3 $\mu$m SiO2 / 300 nm SiN 刻透一维光栅 / air。
+  \item 仿真：2D x-z 单胞，Wave Optics 本征频率，$\Gamma$ 点 TE-like 模式。
+  \item 最优结果：P = 554.13 nm, fill = 0.75, gap = 138.5325 nm, $\lambda \approx 979.9978$ nm, Q $\approx 1.43\times10^{11}$。
+\end{itemize}
+
+\subsection{第二版：16 nm 共形稀土层扰动}
+\begin{itemize}
+  \item 用户澄清稀土层采用共形薄层，等效折射率 n = 1.49。
+  \item 稀土层覆盖 SiN 顶部、侧壁和槽底暴露的 SiO2，厚度 16 nm。
+  \item 第二版保留两个有价值候选：
+    \begin{itemize}
+      \item 紧凑 gap 候选：P = 550.8 nm, fill = 0.74, nominal gap = 143.208 nm, $\lambda \approx 979.9433$ nm, Q $\approx 1.23\times10^{11}$。
+      \item 大 gap 候选：P = 564.3 nm, fill = 0.68, nominal gap = 180.576 nm, 稀土侧壁后剩余空气开口约 148.576 nm, $\lambda \approx 980.0100$ nm, Q $\approx 1.50\times10^{11}$。
+    \end{itemize}
+  \item 后续讨论中明确：大 gap 版本在物理指标和实际填充空间上更合理，应作为主推荐。
+\end{itemize}
+
+\subsection{第三版：大 gap 加稀土的加工鲁棒性扫描}
+\begin{itemize}
+  \item 基于第二版大 gap 结构：P = 564.3 nm, W\_top = 383.724 nm, nominal gap = 180.576 nm。
+  \item 扰动扫描包括：周期扰动 $\Delta P = -5,-2,0,+2,+5$ nm；SiN 顶部脊宽扰动 $\Delta W = -10,-5,0,+5,+10$ nm；侧壁楔角 0$^\circ$, +2$^\circ$, -2$^\circ$。
+  \item 共 75 个 $\Gamma$ 点本征模工况。
+  \item 结论：周期和脊宽扰动本身较鲁棒；真正危险的是 +2$^\circ$ 底部变宽侧壁，会显著破坏 980 nm 附近高 Q 分支。
+\end{itemize}
+
+\section{主要输出目录}
+\begin{ExactText}
+第一版:
+E:/xitugrating/sin980_qbic_2d_design
+
+第二版:
+E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap
+
+第三版:
+E:/xitugrating/sin980_qbic_2d_design_v3_robustness
+\end{ExactText}
+
+\section{重要数值总表}
+\begin{longtable}{>{\raggedright\arraybackslash}p{3.1cm}rrrrr}
+\toprule
+版本/模型 & P (nm) & fill 或 W & gap (nm) & $\lambda$ (nm) & Q \\
+\midrule
+第一版无稀土 & 554.13 & fill 0.75 & 138.5325 & 979.9978 & $1.43\times10^{11}$ \\
+第二版紧凑 gap & 550.8 & fill 0.74 & 143.208 & 979.9433 & $1.23\times10^{11}$ \\
+第二版大 gap & 564.3 & fill 0.68 & 180.576 & 980.0100 & $1.50\times10^{11}$ \\
+第三版名义鲁棒中心 & 564.3 & W 383.724 & 180.576 & 980.0101 & $1.66\times10^{11}$ \\
+\bottomrule
+\end{longtable}
+
+\section{设计完成后的回复原文完整复制}
+\subsection{第一版模型完成后的回复}
+\begin{ExactText}
+已完成。没有覆盖你的原始 PPTX、原 `.mph` 或 SiN 参数表，也没有改 Conda / C 盘配置；所有新文件都在 [sin980_qbic_2d_design](E:/xitugrating/sin980_qbic_2d_design) 里。
+
+核心结果：
+
+- 最佳结构：`P = 554.13 nm`，`fill = 0.75`
+- SiN 光栅：刻透 `300 nm`，脊宽 `415.5975 nm`
+- 基底简化：Si PML/薄 Si buffer + `3 um SiO2`
+- 材料：SiN `n(980 nm)=2.069946018, k=0`
+- Γ 点本征模：`lambda = 979.9978166 nm`
+- Q 值：`1.4271571100435727e11`，满足 `Q >= 1e9`
+
+主要文件：
+
+- 自动建模/扫描脚本：[sin980_qbic_2d.py](E:/xitugrating/sin980_qbic_2d_design/sin980_qbic_2d.py:1)
+- 最佳 Γ 点模型：[sin980_qbic_2d_best_gamma.mph](E:/xitugrating/sin980_qbic_2d_design/outputs/sin980_qbic_2d_best_gamma.mph)
+- 能带模型：[sin980_qbic_2d_band.mph](E:/xitugrating/sin980_qbic_2d_design/outputs/sin980_qbic_2d_band.mph)
+- 汇总报告：[summary.md](E:/xitugrating/sin980_qbic_2d_design/outputs/summary.md)
+- Q 调谐图：[gamma_scan_q.svg](E:/xitugrating/sin980_qbic_2d_design/outputs/gamma_scan_q.svg)
+- Γ-X Q 图：[band_q.svg](E:/xitugrating/sin980_qbic_2d_design/outputs/band_q.svg)
+- Γ-X 能带图：[band_wavelength.svg](E:/xitugrating/sin980_qbic_2d_design/outputs/band_wavelength.svg)
+- 场图：[field_ez2.svg](E:/xitugrating/sin980_qbic_2d_design/outputs/field_ez2.svg)
+
+我也验证了最终 `.mph` 可加载，参数确认为 `h_sio2=3000[nm]`、`h_sin=300[nm]`、SiN 材料参数正确。场图使用 COMSOL 2D 中的 out-of-plane `Ez`，也就是对应一维光栅无限长方向的 TE-like 主场。
+\end{ExactText}
+
+\subsection{第二版共形稀土扰动完成后的回复}
+\begin{ExactText}
+已完成第二版，并且没有覆盖第一版。新目录是 [sin980_qbic_2d_design_v2_rare_earth_gap](E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap)。
+
+推荐的紧凑 gap 结构：
+
+- `P = 550.8 nm`
+- `fill = 0.74`
+- SiN 脊宽 `407.592 nm`
+- nominal gap `143.208 nm`
+- 加 16 nm 共形稀土侧壁后剩余空气开口 `111.208 nm`
+- `lambda = 979.9433458 nm`
+- `Q = 1.2287e11`
+- 稀土层：共形 16 nm，`n_re = 1.49, k_re = 0`
+
+我也保留了一个大 nominal gap 对照：
+
+- `P = 564.3 nm`
+- `fill = 0.68`
+- nominal gap `180.576 nm`
+- 稀土侧壁覆盖后剩余空气开口 `148.576 nm`
+- `lambda = 980.010014 nm`
+- `Q = 1.5009e11`
+
+主要文件：
+
+- 推荐模型：[sin980_qbic_2d_v2_recommended_nominal_gap143.mph](E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap/outputs/sin980_qbic_2d_v2_recommended_nominal_gap143.mph)
+- 大 gap 对照模型：[sin980_qbic_2d_v2_large_nominal_gap180_remaining_gap149.mph](E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap/outputs/sin980_qbic_2d_v2_large_nominal_gap180_remaining_gap149.mph)
+- 能带模型：[sin980_qbic_2d_v2_band.mph](E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap/outputs/sin980_qbic_2d_v2_band.mph)
+- 汇总报告：[summary.md](E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap/outputs/summary.md)
+- 场图：[field_ez2.svg](E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap/outputs/field_ez2.svg)
+- Q 图：[gamma_scan_q.svg](E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap/outputs/gamma_scan_q.svg)
+- 能带图：[band_wavelength.svg](E:/xitugrating/sin980_qbic_2d_design_v2_rare_earth_gap/outputs/band_wavelength.svg)
+
+验证也完成了：`.mph` 可加载，参数确认为 `h_re=16 nm`、`n_re=1.49`、`h_sin=300 nm`、`h_sio2=3000 nm`，并且顶部、左右侧壁、左右槽底共形稀土层都存在。
+\end{ExactText}
+
+\subsection{关于 gap143 与大 gap 推荐修正的回复}
+\begin{ExactText}
+你说得对。按目前仿真指标看，**大 gap 模型更应该作为主推荐**。
+
+我当时推荐 `gap=143 nm` 的原因是：我把你说的“gap 目标 140-150 nm”理解成**刻蚀后的 nominal gap** 想尽量落在 140-150 nm，所以选了更贴近这个制造尺寸窗口的紧凑版本。但从结果本身看：
+
+| 模型 | nominal gap | 稀土侧壁后剩余空气开口 | λ | Q |
+|---|---:|---:|---:|---:|
+| compact gap | 143.208 nm | 111.208 nm | 979.943 nm | 1.23e11 |
+| large gap | 180.576 nm | 148.576 nm | 980.010 nm | 1.50e11 |
+
+如果你的真实需求是“稀土填进去后仍有足够空间”，那么 **large gap 模型反而更符合目标**：侧壁各 16 nm 稀土层后，剩余开口约 `148.6 nm`，正好在你想要的 140-150 nm 区间；同时它的 Q 更高，谐振也更贴近 980 nm。
+
+所以更准确的结论应该改成：
+
+- **主推荐**：`P=564.3 nm, fill=0.68, nominal gap=180.576 nm`
+- **紧凑备选**：`P=550.8 nm, fill=0.74, nominal gap=143.208 nm`
+
+我之前的推荐偏向了“nominal gap 接近 140-150”这个解释；按你现在指出的物理和实验填充逻辑，large gap 版本更优。
+\end{ExactText}
+
+\subsection{第三版加工鲁棒性设计完成后的回复}
+\begin{ExactText}
+你说的这个方向我已经做完了，第三版没有影响前两版，目录在：
+
+[sin980_qbic_2d_design_v3_robustness](E:/xitugrating/sin980_qbic_2d_design_v3_robustness)
+
+这次基于大 gap + 16 nm 稀土层模型：
+
+- 名义结构：`P=564.3 nm`, `W_top=383.724 nm`
+- 顶部 nominal gap：`180.576 nm`
+- 加两侧 16 nm 稀土后剩余空气开口：`148.576 nm`
+- 名义模型结果：`lambda=980.010 nm`, `Q=1.656e11`
+
+鲁棒性扫描范围：
+
+- 周期扰动：`ΔP = -5, -2, 0, +2, +5 nm`
+- SiN 顶部脊宽扰动：`ΔW = -10, -5, 0, +5, +10 nm`
+- 侧壁楔角：`0°, +2°, -2°`
+- 共 `75` 个 Γ 点本征模工况
+
+核心结论：
+
+- **周期/脊宽扰动本身很鲁棒**：在 `0°` 垂直侧壁下，`25/25` 个工况都保持 `Q > 1e9`。
+- **主要风险来自 `+2°` 底部变宽侧壁**：只有 `12/25` 个工况保持 `Q > 1e9`，最差时 980-nearest 模式 Q 降到约 `534`。
+- **`-2°` 底部变窄侧壁相对安全很多**：`22/25` 个工况保持 `Q > 1e9`。
+
+文件：
+
+- 鲁棒性报告：[robustness_summary.md](E:/xitugrating/sin980_qbic_2d_design_v3_robustness/outputs/robustness_summary.md)
+- 扫描数据：[robustness_scan.csv](E:/xitugrating/sin980_qbic_2d_design_v3_robustness/outputs/robustness_scan.csv)
+- 名义鲁棒模型：[sin980_qbic_2d_v3_nominal_large_gap_re.mph](E:/xitugrating/sin980_qbic_2d_design_v3_robustness/outputs/sin980_qbic_2d_v3_nominal_large_gap_re.mph)
+- 最低 Q 代表模型：[sin980_qbic_2d_v3_worst_q_case.mph](E:/xitugrating/sin980_qbic_2d_design_v3_robustness/outputs/sin980_qbic_2d_v3_worst_q_case.mph)
+
+工程建议：加工时优先保证侧壁接近垂直，或者宁可略微底部变窄，也要避免明显底部变宽的 `+2°` 梯形楔角。如果工艺天然会做成底部变宽，需要用 `+2°` 梯形模型重新调 `P/W`，不能直接沿用垂直侧壁名义参数。
+\end{ExactText}
+
+\end{document}

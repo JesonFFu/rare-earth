@@ -1,0 +1,7 @@
+v10 material stack and design constraints
+Effective Si / 1500 nm SiO2 / 50 nm rare-earth film / 12.5 nm SiO2 cap / 300 nm patterned SiN / air.
+Only the SiN layer is patterned. The rare-earth film and SiO2 cap remain continuous.
+n_re(980)=1.355, n_re(451)=1.365.
+n_sin(980)=2.069946018, n_sin(451)=2.128247126.
+n_sio2(980)=1.45, n_sio2(451)=1.466.
+Targets: Q980>=1e8, Q451>=1e5.

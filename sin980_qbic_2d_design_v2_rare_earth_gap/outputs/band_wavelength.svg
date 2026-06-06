@@ -1,0 +1,34 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='540' viewBox='0 0 900 540'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450.0' y='30' text-anchor='middle' font-size='22' font-family='Arial'>SiN 1D quasi-BIC band near 980 nm</text>
+<line x1='90' y1='460' x2='870' y2='460' stroke='black'/>
+<line x1='90' y1='55' x2='90' y2='460' stroke='black'/>
+<text x='450.0' y='515' text-anchor='middle' font-size='16' font-family='Arial'>kx / (pi/P)</text>
+<text x='24' y='270.0' text-anchor='middle' transform='rotate(-90 24 270.0)' font-size='16' font-family='Arial'>wavelength (nm)</text>
+<line x1='90.00' y1='460' x2='90.00' y2='465' stroke='black'/>
+<text x='90.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>0</text>
+<line x1='246.00' y1='460' x2='246.00' y2='465' stroke='black'/>
+<text x='246.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>0.2</text>
+<line x1='402.00' y1='460' x2='402.00' y2='465' stroke='black'/>
+<text x='402.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>0.4</text>
+<line x1='558.00' y1='460' x2='558.00' y2='465' stroke='black'/>
+<text x='558.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>0.6</text>
+<line x1='714.00' y1='460' x2='714.00' y2='465' stroke='black'/>
+<text x='714.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>0.8</text>
+<line x1='870.00' y1='460' x2='870.00' y2='465' stroke='black'/>
+<text x='870.00' y='484' text-anchor='middle' font-size='12' font-family='Arial'>1</text>
+<line x1='85' y1='460.00' x2='90' y2='460.00' stroke='black'/>
+<text x='80' y='464.00' text-anchor='end' font-size='12' font-family='Arial'>950.5</text>
+<line x1='85' y1='379.00' x2='90' y2='379.00' stroke='black'/>
+<text x='80' y='383.00' text-anchor='end' font-size='12' font-family='Arial'>959</text>
+<line x1='85' y1='298.00' x2='90' y2='298.00' stroke='black'/>
+<text x='80' y='302.00' text-anchor='end' font-size='12' font-family='Arial'>967.5</text>
+<line x1='85' y1='217.00' x2='90' y2='217.00' stroke='black'/>
+<text x='80' y='221.00' text-anchor='end' font-size='12' font-family='Arial'>976</text>
+<line x1='85' y1='136.00' x2='90' y2='136.00' stroke='black'/>
+<text x='80' y='140.00' text-anchor='end' font-size='12' font-family='Arial'>984.5</text>
+<line x1='85' y1='55.00' x2='90' y2='55.00' stroke='black'/>
+<text x='80' y='59.00' text-anchor='end' font-size='12' font-family='Arial'>993</text>
+<polyline points='90.00,179.47 97.80,178.15 105.60,174.22 129.00,147.02 168.00,55.00 246.00,460.00 363.00,349.49 480.00,254.65 675.00,194.77 870.00,125.19' fill='none' stroke='#0b5fff' stroke-width='2.5'/>
+<text x='105' y='75' font-size='14' font-family='Arial' fill='#0b5fff'>best mode</text>
+</svg>

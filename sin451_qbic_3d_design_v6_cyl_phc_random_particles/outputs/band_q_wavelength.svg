@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="460.0" y="24" text-anchor="middle" font-family="Arial" font-size="18">v6 best candidate band sanity check</text>
+<line x1="85" y1="465" x2="835" y2="465" stroke="#111"/>
+<line x1="85" y1="40" x2="85" y2="465" stroke="#111"/>
+<line x1="835" y1="40" x2="835" y2="465" stroke="#111"/>
+<line x1="85" y1="289.04" x2="835" y2="289.04" stroke="#eee"/>
+<text x="75" y="293.04" text-anchor="end" font-family="Arial" font-size="12">448</text>
+<line x1="85" y1="245.65" x2="835" y2="245.65" stroke="#eee"/>
+<text x="75" y="249.65" text-anchor="end" font-family="Arial" font-size="12">449</text>
+<line x1="85" y1="158.86" x2="835" y2="158.86" stroke="#eee"/>
+<text x="75" y="162.86" text-anchor="end" font-family="Arial" font-size="12">451</text>
+<line x1="85" y1="72.07" x2="835" y2="72.07" stroke="#eee"/>
+<text x="75" y="76.07" text-anchor="end" font-family="Arial" font-size="12">453</text>
+<text x="85.00" y="489" text-anchor="end" transform="rotate(-35 85.00 489)" font-family="Arial" font-size="11">(0,0)</text>
+<text x="192.14" y="489" text-anchor="end" transform="rotate(-35 192.14 489)" font-family="Arial" font-size="11">(0.02,0)</text>
+<text x="299.29" y="489" text-anchor="end" transform="rotate(-35 299.29 489)" font-family="Arial" font-size="11">(0.05,0)</text>
+<text x="406.43" y="489" text-anchor="end" transform="rotate(-35 406.43 489)" font-family="Arial" font-size="11">(0.1,0)</text>
+<text x="513.57" y="489" text-anchor="end" transform="rotate(-35 513.57 489)" font-family="Arial" font-size="11">(0.2,0)</text>
+<text x="620.71" y="489" text-anchor="end" transform="rotate(-35 620.71 489)" font-family="Arial" font-size="11">(0.5,0)</text>
+<text x="727.86" y="489" text-anchor="end" transform="rotate(-35 727.86 489)" font-family="Arial" font-size="11">(0,0.5)</text>
+<text x="835.00" y="489" text-anchor="end" transform="rotate(-35 835.00 489)" font-family="Arial" font-size="11">(0.5,0.5)</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2" points="85.00,216.00 192.14,224.77 299.29,270.02 406.43,421.61 513.57,339.27 620.71,87.62 727.86,83.39 835.00,253.28"/>
+<polyline fill="none" stroke="#d62728" stroke-width="2" points="85.00,51.15 192.14,89.69 299.29,152.80 406.43,219.93 513.57,374.34 620.71,417.43 727.86,416.67 835.00,453.85"/>
+<circle cx="85.00" cy="216.00" r="4" fill="#1f77b4"><title>(0,0) lambda=449.683</title></circle>
+<circle cx="192.14" cy="224.77" r="4" fill="#1f77b4"><title>(0.02,0) lambda=449.481</title></circle>
+<circle cx="299.29" cy="270.02" r="4" fill="#1f77b4"><title>(0.05,0) lambda=448.438</title></circle>
+<circle cx="406.43" cy="421.61" r="4" fill="#1f77b4"><title>(0.1,0) lambda=444.945</title></circle>
+<circle cx="513.57" cy="339.27" r="4" fill="#1f77b4"><title>(0.2,0) lambda=446.842</title></circle>
+<circle cx="620.71" cy="87.62" r="4" fill="#1f77b4"><title>(0.5,0) lambda=452.642</title></circle>
+<circle cx="727.86" cy="83.39" r="4" fill="#1f77b4"><title>(0,0.5) lambda=452.739</title></circle>
+<circle cx="835.00" cy="253.28" r="4" fill="#1f77b4"><title>(0.5,0.5) lambda=448.824</title></circle>
+<rect x="81.00" y="47.15" width="8" height="8" fill="#d62728"><title>(0,0) Q=6.98417e+06</title></rect>
+<rect x="188.14" y="85.69" width="8" height="8" fill="#d62728"><title>(0.02,0) Q=2.81916e+06</title></rect>
+<rect x="295.29" y="148.80" width="8" height="8" fill="#d62728"><title>(0.05,0) Q=638338</title></rect>
+<rect x="402.43" y="215.93" width="8" height="8" fill="#d62728"><title>(0.1,0) Q=131468</title></rect>
+<rect x="509.57" y="370.34" width="8" height="8" fill="#d62728"><title>(0.2,0) Q=3470.8</title></rect>
+<rect x="616.71" y="413.43" width="8" height="8" fill="#d62728"><title>(0.5,0) Q=1258.83</title></rect>
+<rect x="723.86" y="412.67" width="8" height="8" fill="#d62728"><title>(0,0.5) Q=1281.57</title></rect>
+<rect x="831.00" y="449.85" width="8" height="8" fill="#d62728"><title>(0.5,0.5) Q=534.165</title></rect>
+<text x="460.0" y="538" text-anchor="middle" font-family="Arial" font-size="14">(kx, ky) in pi/P</text>
+<text x="22" y="252.5" transform="rotate(-90 22 252.5)" text-anchor="middle" font-family="Arial" font-size="14" fill="#1f77b4">Wavelength (nm)</text>
+<text x="898" y="252.5" transform="rotate(90 898 252.5)" text-anchor="middle" font-family="Arial" font-size="14" fill="#d62728">Q (log)</text>
+</svg>

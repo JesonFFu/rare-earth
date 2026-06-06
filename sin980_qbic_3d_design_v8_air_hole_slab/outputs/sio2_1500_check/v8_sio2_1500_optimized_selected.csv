@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+v8_sio2_1500_P540_R78p0,540.0,78.0,384.0,0.0,0.0,1,306.1231145035937,4.272899667258072e-08,979.3199003810627,3582147234.22272,0,0,0,0,0.6800996189373336

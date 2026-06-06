@@ -1,0 +1,2 @@
+design_id,period_nm,radius_nm,axis_gap_nm,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,particle_count,top_count,sio2_count,side_count,score
+v7_sio2_1500_P594_G80,594.0,257.0,80.0,0.0,0.0,1,305.95398043839725,2.451987516290368e-06,979.8612770797474,62388975.96454275,0,0,0,0,0.9582914910568611

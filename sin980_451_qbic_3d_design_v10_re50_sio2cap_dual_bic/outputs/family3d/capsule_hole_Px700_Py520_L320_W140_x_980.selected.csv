@@ -1,0 +1,2 @@
+design_id,family,target_nm,px_nm,py_nm,feature_min_nm,fabricable,preferred_gap_ok,kx_norm,ky_norm,mode_index,freq_thz_real,freq_thz_imag,wavelength_nm,q_value,score
+capsule_hole_Px700_Py520_L320_W140_x,capsule_elliptic_air_hole,980.0,700.0,520.0,140.0,True,True,0.0,0.0,9,302.5163099669851,0.4646590544574093,990.9960161576665,325.52503503912004,27.45826297470278
